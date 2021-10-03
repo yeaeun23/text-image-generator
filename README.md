@@ -23,6 +23,6 @@
 
 ![appsvr3 seoul co kr_edisplay-major-news-web_index aspx_userid=2018010 (2)](https://user-images.githubusercontent.com/14077108/135744958-c8393fd5-b9a0-4f6a-a41c-13307a6e3607.png)
 
-* <b>실제 용</b>
+* <b>실제 활용</b>
 
 ![미리보기](https://user-images.githubusercontent.com/14077108/135744947-e7bc4701-6854-4c76-aebb-284b44e33c4e.jpg)
