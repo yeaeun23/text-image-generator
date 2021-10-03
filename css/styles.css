@@ -1,0 +1,110 @@
+﻿@charset "UTF-8";
+
+body {
+    background: #e2e6ea !important;
+}
+
+.container {
+    padding: 15px 0;
+}
+
+[class*="col-"] {
+    padding: 0 10px 1rem;
+}
+
+label {
+    margin-bottom: 0 !important;
+}
+
+.button {
+    font-size: 0;
+}
+
+    .button .btn + .btn {
+        margin-left: 10px;
+    }
+
+    .button .progress + .btn {
+        margin-left: 10px;
+    }
+
+    .button input[type="file"] {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0,0,0,0);
+        border: 0;
+    }
+
+    .button #FileSelect_DispNone {
+        display: none;
+    }
+
+ul.files {
+    overflow-y: scroll !important;
+    min-height: 320px;
+}
+
+ul img {
+    height: 30px;
+}
+
+ul .progress {
+    display: inline-block;
+    vertical-align: middle;
+    width: 420px;
+}
+
+@media (min-width: 576px) {
+    ul .progress {
+        max-width: 220px;
+    }
+}
+
+@media (min-width: 768px) {
+    ul .progress {
+        max-width: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    ul .progress {
+        max-width: 220px;
+    }
+}
+
+@media (min-width: 1200px) {
+    ul .progress {
+        max-width: 420px;
+    }
+}
+
+/* 모달 */
+.modal-body {
+    overflow-x: scroll;
+}
+
+    .modal-body table {
+        width: 1106px;
+        table-layout: fixed;
+    }
+
+    .modal-body td {
+        padding: 10px 15px;
+    }
+
+    .modal-body img {
+        width: 966px;
+    }
+
+.modal-footer {
+    padding: 1rem !important;
+    display: block !important;
+}
+
+    .modal-footer > * {
+        margin: 0 !important;
+    }
